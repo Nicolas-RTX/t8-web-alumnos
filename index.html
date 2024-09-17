@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Alumnos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Alumnos - Tecnica 8 Lanus</h1>
+
+        <form id="alumnoFormulario">
+            <input type="hidden" id="alumnoId">
+
+            <label for="dni">DNI:</label>
+            <input type="number" id="dni" required>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" required>
+
+            <label for="curso">Curso:</label>
+            <input type="number" id="curso" required>
+
+            <label for="division">Division:</label>
+            <input type="number" id="division" required>
+
+            <button type="submit" id="submit-btn">Guardar Alumno</button>
+        </form>
+
+        <table id="alumnosTabla">
+            <thead>
+                <tr>
+                    <th>DNI</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Curso</th>
+                    <th>Division</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
