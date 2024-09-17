@@ -1,6 +1,6 @@
 // ### // Obtener dirección de la API // ### //
 
-const apiUrl = 'http://localhost/api-personas/src/';
+const apiUrl = 'https://github.com/Nicolas-RTX/t8-api-alumnos/tree/7fd25b2a55b79ed60412b4089aeb139b12ebcbae/src';
 
 // ### // Obtener los elementos del DOM // ### //
 
